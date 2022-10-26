@@ -1,35 +1,19 @@
-name: Django Tutorials App Pipeline
-
-on:
-  push:
-    branches:
-      - main
-  pull_request:
-    branches:
-      - main
-  workflow_dispatch:
-
+name: Learn Github Packaging
+on: [push]
 jobs:
-  build-and-test:
+  build:
     runs-on: ubuntu-latest
-
-    steps:       
+    steps:
       - uses: actions/checkout@v2
+      - name: Run a one-line script
+        run: echo Packaging citylocations for release!
 
-      - run: echo Entering Django CI/CD Pipeline!
-      
       - name: Set up Python 3.9
-        uses: actions/setup-python@v2
+        uses: actions/setup-python@v1
         with:
-          python-version: 3.9     
-      
+          python-version: 3.9
+
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          python -m pip install -r requirements.txt
-     
-      - name: Run migrations
-        run: python manage.py migrate
-      
-      - name: Run all tests
-        run: pytest -v
+          pip install -r requirements.txt
