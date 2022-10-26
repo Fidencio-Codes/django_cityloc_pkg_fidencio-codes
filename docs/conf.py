@@ -14,7 +14,7 @@ sys.path.insert(0, os.path.abspath('..'))
 project = 'django_cityloc_pkg_fidencio-codes'
 copyright = '2022, Fidencio Guerra'
 author = 'Fidencio Guerra'
-release = '0.0.1'
+release = '0.0.2'
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
