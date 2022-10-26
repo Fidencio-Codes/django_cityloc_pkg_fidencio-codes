@@ -11,7 +11,7 @@ sys.path.insert(0, os.path.abspath('..'))
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = 'django_cityloc_pkg'
+project = 'django_cityloc_pkg_fidencio-codes'
 copyright = '2022, Fidencio Guerra'
 author = 'Fidencio Guerra'
 release = '0.0.1'
