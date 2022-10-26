@@ -1,0 +1,4 @@
+Sphinx>=5.2.3
+django>=3.2
+Sphinx>=5.2.3
+django>=3.2
