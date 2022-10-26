@@ -3,5 +3,6 @@ from citylocations import views
 
 
 urlpatterns = [
-    path('loc-nyc', views.loc_nyc, name='loc-nyc'),
+    path('loc-nyc', views.loc_nyc, name='loc-nyc'), 
+    path('', ('citylocations.urls')),
 ]

@@ -39,6 +39,7 @@ City Locations
 City Locations is a Django app that can be installed in an existing Django project
 Documentation: https://toddpy-django-cityloc-pkg.readthedocs.io/en/latest/
 
+------------
 Installation
 ------------
 

@@ -8,6 +8,10 @@ long_description = (this_directory / "README.rst").read_text()
 setup(
     long_description=long_description)
 
+INSTALLED_APPS = [
+        'citylocations',
+    ]
+
 
 ### The setup.py is the installation entry point used to install your new package, 
 # generate distribution files, and more. The details provided here will be used in 
